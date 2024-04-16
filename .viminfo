@@ -1,0 +1,1543 @@
+# Questo file viminfo è stato generato da Vim 9.1.
+# File modificabile, attento a quel che fai!
+
+# Viminfo version
+|1,4
+
+# Valore di 'encoding' al momento della scrittura di questo file
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Ult. Espressione di Ricerca:
+~MSle0~/font
+
+# Ultima Stringa Sostituzione:
+$
+
+# Riga-di-comando Storia (da più recente a meno recente):
+:x
+|2,0,1713292038,,"x"
+:q
+|2,0,1713291554,,"q"
+:q!
+|2,0,1713281341,,"q!"
+:wq
+|2,0,1713096854,,"wq"
+:w
+|2,0,1713096622,,"w"
+:help NERDTree
+|2,0,1709909871,,"help NERDTree"
+:delete
+|2,0,1709909842,,"delete"
+:NERDTree
+|2,0,1709909832,,"NERDTree"
+:PlugInstall
+|2,0,1709909695,,"PlugInstall"
+:help quickref
+|2,0,1709909527,,"help quickref"
+:quickref
+|2,0,1709909513,,"quickref"
+:help 
+|2,0,1709909472,,"help "
+:help foldings
+|2,0,1709909469,,"help foldings"
+:foldings
+|2,0,1709909467,,"foldings"
+:undo
+|2,0,1709909459,,"undo"
+:Q
+|2,0,1709909440,,"Q"
+:source %
+|2,0,1709909431,,"source %"
+:colorscheme molokai
+|2,0,1709907083,,"colorscheme molokai"
+:q
+|2,0,1709906806,,"q"
+:wq!
+|2,0,1709487212,,"wq!"
+::wq
+|2,0,1708716491,,":wq"
+:q1
+|2,0,1708693896,,"q1"
+:W
+|2,0,1708532759,,"W"
+:help
+|2,0,1707676455,,"help"
+:+gP
+|2,0,1707676452,,"+gP"
+:pp
+|2,0,1707667201,,"pp"
+:paste
+|2,0,1707667199,,"paste"
+:p
+|2,0,1707665228,,"p"
+:set paste
+|2,0,1707665163,,"set paste"
+:e
+|2,0,1707650962,,"e"
+:sudo
+|2,0,1707506229,,"sudo"
+:udo
+|2,0,1707506226,,"udo"
+
+# Stringa di Ricerca Storia (da più recente a meno recente):
+?/font
+|2,1,1713221690,47,"font"
+?/PDF
+|2,1,1713096851,47,"PDF"
+?/pdf
+|2,1,1713096836,47,"pdf"
+?/$mod+d
+|2,1,1713093981,47,"$mod+d"
+?/mod
+|2,1,1713093955,47,"mod"
+?/Mod
+|2,1,1713093951,47,"Mod"
+?/fold
+|2,1,1709909541,47,"fold"
+? @$
+|2,1,1709627377,,"@$"
+?/click
+|2,1,1709563474,47,"click"
+?/lock
+|2,1,1709562399,47,"lock"
+?/Enter
+|2,1,1709560695,47,"Enter"
+?/batte
+|2,1,1708728855,47,"batte"
+?/background_opa
+|2,1,1708715059,47,"background_opa"
+? \<exec\>
+|2,1,1708703605,,"\\<exec\\>"
+?/resiz
+|2,1,1708697403,47,"resiz"
+? \<for_window\>
+|2,1,1708694584,,"\\<for_window\\>"
+? \<bindsym\>
+|2,1,1708694329,,"\\<bindsym\\>"
+?/feh
+|2,1,1707691276,47,"feh"
+?/workspac
+|2,1,1707677059,47,"workspac"
+?/mod+d
+|2,1,1707676686,47,"mod+d"
+?/text
+|2,1,1707676472,47,"text"
+?/mouse
+|2,1,1707650597,47,"mouse"
+?/focus_follo
+|2,1,1707650544,47,"focus_follo"
+?/focu
+|2,1,1707650484,47,"focu"
+?/wallpaper
+|2,1,1707648900,47,"wallpaper"
+? \<pacman\>
+|2,1,1707646841,,"\\<pacman\\>"
+? \<echo\>
+|2,1,1707646453,,"\\<echo\\>"
+?/archlinuxfr
+|2,1,1707440638,47,"archlinuxfr"
+
+# Espressione Storia (da più recente a meno recente):
+
+# Riga di Input Storia (da più recente a meno recente):
+
+# Riga di Debug Storia (da più recente a meno recente):
+
+# Registri:
+""0	LINE	0
+	set line_numbers
+	set preview_images true
+	set draw_borders true
+	set preview_images_method kitty
+|3,1,0,1,4,0,1713096378,"set line_numbers","set preview_images true","set draw_borders true","set preview_images_method kitty"
+"1	LINE	0
+		Plug 'junegunn/fzf.vim'
+|3,0,1,1,1,0,1709909361,"	Plug 'junegunn/fzf.vim'"
+"2	LINE	0
+		Plug 'tpope/vim-markdown'
+|3,0,2,1,1,0,1709909359,"	Plug 'tpope/vim-markdown'"
+"3	LINE	0
+	" Statuis bar code goes here.
+|3,0,3,1,1,0,1709907778,"\" Statuis bar code goes here."
+"4	LINE	0
+	
+|3,0,4,1,1,0,1709907577,""
+"5	LINE	0
+	
+|3,0,5,1,1,0,1709906257,""
+"6	LINE	0
+	
+|3,0,6,1,1,0,1709906256,""
+"7	LINE	0
+	" ==============================
+	"        Basic Settings 
+	" ==============================
+|3,0,7,1,3,0,1709906255,"\" ==============================","\"        Basic Settings ","\" =============================="
+"8	LINE	0
+	" ==============================
+|3,0,8,1,1,0,1709906179,"\" =============================="
+"9	LINE	0
+	"         keymaps
+|3,0,9,1,1,0,1709906178,"\"         keymaps"
+
+# File mark:
+'0  42  20  ~/Code/dot-files/.git/COMMIT_EDITMSG
+|4,48,42,20,1713292038,"~/Code/dot-files/.git/COMMIT_EDITMSG"
+'1  328  0  ~/Code/dot-files/.git/COMMIT_EDITMSG
+|4,49,328,0,1713291554,"~/Code/dot-files/.git/COMMIT_EDITMSG"
+'2  326  0  ~/Code/dot-files/.git/COMMIT_EDITMSG
+|4,50,326,0,1713291554,"~/Code/dot-files/.git/COMMIT_EDITMSG"
+'3  1  17  /etc/modprobe.d/blacklist.conf
+|4,51,1,17,1713281341,"/etc/modprobe.d/blacklist.conf"
+'4  287  14  ~/.config/polybar/modules.ini
+|4,52,287,14,1713221704,"~/.config/polybar/modules.ini"
+'5  16  2  ~/.config/i3/config
+|4,53,16,2,1713221657,"~/.config/i3/config"
+'6  1  0  ~/.config/polybar/config.ini
+|4,54,1,0,1713221585,"~/.config/polybar/config.ini"
+'7  49  16  ~/.config/polybar/config.ini
+|4,55,49,16,1713217562,"~/.config/polybar/config.ini"
+'8  49  16  ~/.config/polybar/config.ini
+|4,56,49,16,1713217562,"~/.config/polybar/config.ini"
+'9  45  20  ~/.config/polybar/config.ini
+|4,57,45,20,1713217540,"~/.config/polybar/config.ini"
+
+# Jumplist (dai più recenti):
+-'  42  20  ~/Code/dot-files/.git/COMMIT_EDITMSG
+|4,39,42,20,1713292038,"~/Code/dot-files/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Code/dot-files/.git/COMMIT_EDITMSG
+|4,39,1,0,1713292027,"~/Code/dot-files/.git/COMMIT_EDITMSG"
+-'  328  0  ~/Code/dot-files/.git/COMMIT_EDITMSG
+|4,39,328,0,1713291554,"~/Code/dot-files/.git/COMMIT_EDITMSG"
+-'  326  0  ~/Code/dot-files/.git/COMMIT_EDITMSG
+|4,39,326,0,1713291554,"~/Code/dot-files/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Code/dot-files/.git/COMMIT_EDITMSG
+|4,39,1,0,1713291543,"~/Code/dot-files/.git/COMMIT_EDITMSG"
+-'  1  17  /etc/modprobe.d/blacklist.conf
+|4,39,1,17,1713281341,"/etc/modprobe.d/blacklist.conf"
+-'  1  17  /etc/modprobe.d/blacklist.conf
+|4,39,1,17,1713281341,"/etc/modprobe.d/blacklist.conf"
+-'  1  17  /etc/modprobe.d/blacklist.conf
+|4,39,1,17,1713281341,"/etc/modprobe.d/blacklist.conf"
+-'  1  17  /etc/modprobe.d/blacklist.conf
+|4,39,1,17,1713281341,"/etc/modprobe.d/blacklist.conf"
+-'  287  14  ~/.config/polybar/modules.ini
+|4,39,287,14,1713221704,"~/.config/polybar/modules.ini"
+-'  287  14  ~/.config/polybar/modules.ini
+|4,39,287,14,1713221704,"~/.config/polybar/modules.ini"
+-'  287  14  ~/.config/polybar/modules.ini
+|4,39,287,14,1713221704,"~/.config/polybar/modules.ini"
+-'  287  14  ~/.config/polybar/modules.ini
+|4,39,287,14,1713221704,"~/.config/polybar/modules.ini"
+-'  287  14  ~/.config/polybar/modules.ini
+|4,39,287,14,1713221704,"~/.config/polybar/modules.ini"
+-'  287  14  ~/.config/polybar/modules.ini
+|4,39,287,14,1713221704,"~/.config/polybar/modules.ini"
+-'  287  14  ~/.config/polybar/modules.ini
+|4,39,287,14,1713221704,"~/.config/polybar/modules.ini"
+-'  287  14  ~/.config/polybar/modules.ini
+|4,39,287,14,1713221704,"~/.config/polybar/modules.ini"
+-'  83  0  ~/.config/polybar/modules.ini
+|4,39,83,0,1713221690,"~/.config/polybar/modules.ini"
+-'  83  0  ~/.config/polybar/modules.ini
+|4,39,83,0,1713221690,"~/.config/polybar/modules.ini"
+-'  83  0  ~/.config/polybar/modules.ini
+|4,39,83,0,1713221690,"~/.config/polybar/modules.ini"
+-'  83  0  ~/.config/polybar/modules.ini
+|4,39,83,0,1713221690,"~/.config/polybar/modules.ini"
+-'  83  0  ~/.config/polybar/modules.ini
+|4,39,83,0,1713221690,"~/.config/polybar/modules.ini"
+-'  83  0  ~/.config/polybar/modules.ini
+|4,39,83,0,1713221690,"~/.config/polybar/modules.ini"
+-'  83  0  ~/.config/polybar/modules.ini
+|4,39,83,0,1713221690,"~/.config/polybar/modules.ini"
+-'  83  0  ~/.config/polybar/modules.ini
+|4,39,83,0,1713221690,"~/.config/polybar/modules.ini"
+-'  1  0  ~/.config/polybar/modules.ini
+|4,39,1,0,1713221680,"~/.config/polybar/modules.ini"
+-'  1  0  ~/.config/polybar/modules.ini
+|4,39,1,0,1713221680,"~/.config/polybar/modules.ini"
+-'  1  0  ~/.config/polybar/modules.ini
+|4,39,1,0,1713221680,"~/.config/polybar/modules.ini"
+-'  1  0  ~/.config/polybar/modules.ini
+|4,39,1,0,1713221680,"~/.config/polybar/modules.ini"
+-'  1  0  ~/.config/polybar/modules.ini
+|4,39,1,0,1713221680,"~/.config/polybar/modules.ini"
+-'  1  0  ~/.config/polybar/modules.ini
+|4,39,1,0,1713221680,"~/.config/polybar/modules.ini"
+-'  1  0  ~/.config/polybar/modules.ini
+|4,39,1,0,1713221680,"~/.config/polybar/modules.ini"
+-'  1  0  ~/.config/polybar/modules.ini
+|4,39,1,0,1713221680,"~/.config/polybar/modules.ini"
+-'  16  2  ~/.config/i3/config
+|4,39,16,2,1713221657,"~/.config/i3/config"
+-'  16  2  ~/.config/i3/config
+|4,39,16,2,1713221657,"~/.config/i3/config"
+-'  16  2  ~/.config/i3/config
+|4,39,16,2,1713221657,"~/.config/i3/config"
+-'  16  2  ~/.config/i3/config
+|4,39,16,2,1713221657,"~/.config/i3/config"
+-'  16  2  ~/.config/i3/config
+|4,39,16,2,1713221657,"~/.config/i3/config"
+-'  16  2  ~/.config/i3/config
+|4,39,16,2,1713221657,"~/.config/i3/config"
+-'  16  2  ~/.config/i3/config
+|4,39,16,2,1713221657,"~/.config/i3/config"
+-'  16  2  ~/.config/i3/config
+|4,39,16,2,1713221657,"~/.config/i3/config"
+-'  16  2  ~/.config/i3/config
+|4,39,16,2,1713221657,"~/.config/i3/config"
+-'  16  2  ~/.config/i3/config
+|4,39,16,2,1713221657,"~/.config/i3/config"
+-'  16  2  ~/.config/i3/config
+|4,39,16,2,1713221657,"~/.config/i3/config"
+-'  16  2  ~/.config/i3/config
+|4,39,16,2,1713221657,"~/.config/i3/config"
+-'  16  2  ~/.config/i3/config
+|4,39,16,2,1713221657,"~/.config/i3/config"
+-'  16  2  ~/.config/i3/config
+|4,39,16,2,1713221657,"~/.config/i3/config"
+-'  16  2  ~/.config/i3/config
+|4,39,16,2,1713221657,"~/.config/i3/config"
+-'  16  2  ~/.config/i3/config
+|4,39,16,2,1713221657,"~/.config/i3/config"
+-'  23  0  ~/.config/i3/config
+|4,39,23,0,1713221636,"~/.config/i3/config"
+-'  23  0  ~/.config/i3/config
+|4,39,23,0,1713221636,"~/.config/i3/config"
+-'  23  0  ~/.config/i3/config
+|4,39,23,0,1713221636,"~/.config/i3/config"
+-'  23  0  ~/.config/i3/config
+|4,39,23,0,1713221636,"~/.config/i3/config"
+-'  23  0  ~/.config/i3/config
+|4,39,23,0,1713221636,"~/.config/i3/config"
+-'  23  0  ~/.config/i3/config
+|4,39,23,0,1713221636,"~/.config/i3/config"
+-'  23  0  ~/.config/i3/config
+|4,39,23,0,1713221636,"~/.config/i3/config"
+-'  23  0  ~/.config/i3/config
+|4,39,23,0,1713221636,"~/.config/i3/config"
+-'  23  0  ~/.config/i3/config
+|4,39,23,0,1713221636,"~/.config/i3/config"
+-'  23  0  ~/.config/i3/config
+|4,39,23,0,1713221636,"~/.config/i3/config"
+-'  23  0  ~/.config/i3/config
+|4,39,23,0,1713221636,"~/.config/i3/config"
+-'  23  0  ~/.config/i3/config
+|4,39,23,0,1713221636,"~/.config/i3/config"
+-'  23  0  ~/.config/i3/config
+|4,39,23,0,1713221636,"~/.config/i3/config"
+-'  23  0  ~/.config/i3/config
+|4,39,23,0,1713221636,"~/.config/i3/config"
+-'  23  0  ~/.config/i3/config
+|4,39,23,0,1713221636,"~/.config/i3/config"
+-'  23  0  ~/.config/i3/config
+|4,39,23,0,1713221636,"~/.config/i3/config"
+-'  21  0  ~/.config/i3/config
+|4,39,21,0,1713221631,"~/.config/i3/config"
+-'  21  0  ~/.config/i3/config
+|4,39,21,0,1713221631,"~/.config/i3/config"
+-'  21  0  ~/.config/i3/config
+|4,39,21,0,1713221631,"~/.config/i3/config"
+-'  21  0  ~/.config/i3/config
+|4,39,21,0,1713221631,"~/.config/i3/config"
+-'  21  0  ~/.config/i3/config
+|4,39,21,0,1713221631,"~/.config/i3/config"
+-'  21  0  ~/.config/i3/config
+|4,39,21,0,1713221631,"~/.config/i3/config"
+-'  21  0  ~/.config/i3/config
+|4,39,21,0,1713221631,"~/.config/i3/config"
+-'  21  0  ~/.config/i3/config
+|4,39,21,0,1713221631,"~/.config/i3/config"
+-'  21  0  ~/.config/i3/config
+|4,39,21,0,1713221631,"~/.config/i3/config"
+-'  21  0  ~/.config/i3/config
+|4,39,21,0,1713221631,"~/.config/i3/config"
+-'  21  0  ~/.config/i3/config
+|4,39,21,0,1713221631,"~/.config/i3/config"
+-'  21  0  ~/.config/i3/config
+|4,39,21,0,1713221631,"~/.config/i3/config"
+-'  21  0  ~/.config/i3/config
+|4,39,21,0,1713221631,"~/.config/i3/config"
+-'  21  0  ~/.config/i3/config
+|4,39,21,0,1713221631,"~/.config/i3/config"
+-'  21  0  ~/.config/i3/config
+|4,39,21,0,1713221631,"~/.config/i3/config"
+-'  21  0  ~/.config/i3/config
+|4,39,21,0,1713221631,"~/.config/i3/config"
+-'  17  0  ~/.config/i3/config
+|4,39,17,0,1713221625,"~/.config/i3/config"
+-'  17  0  ~/.config/i3/config
+|4,39,17,0,1713221625,"~/.config/i3/config"
+-'  17  0  ~/.config/i3/config
+|4,39,17,0,1713221625,"~/.config/i3/config"
+-'  17  0  ~/.config/i3/config
+|4,39,17,0,1713221625,"~/.config/i3/config"
+-'  17  0  ~/.config/i3/config
+|4,39,17,0,1713221625,"~/.config/i3/config"
+-'  17  0  ~/.config/i3/config
+|4,39,17,0,1713221625,"~/.config/i3/config"
+-'  17  0  ~/.config/i3/config
+|4,39,17,0,1713221625,"~/.config/i3/config"
+-'  17  0  ~/.config/i3/config
+|4,39,17,0,1713221625,"~/.config/i3/config"
+-'  17  0  ~/.config/i3/config
+|4,39,17,0,1713221625,"~/.config/i3/config"
+-'  17  0  ~/.config/i3/config
+|4,39,17,0,1713221625,"~/.config/i3/config"
+-'  17  0  ~/.config/i3/config
+|4,39,17,0,1713221625,"~/.config/i3/config"
+-'  17  0  ~/.config/i3/config
+|4,39,17,0,1713221625,"~/.config/i3/config"
+-'  17  0  ~/.config/i3/config
+|4,39,17,0,1713221625,"~/.config/i3/config"
+-'  17  0  ~/.config/i3/config
+|4,39,17,0,1713221625,"~/.config/i3/config"
+-'  17  0  ~/.config/i3/config
+|4,39,17,0,1713221625,"~/.config/i3/config"
+-'  17  0  ~/.config/i3/config
+|4,39,17,0,1713221625,"~/.config/i3/config"
+-'  55  0  ~/.config/i3/config
+|4,39,55,0,1713221621,"~/.config/i3/config"
+-'  55  0  ~/.config/i3/config
+|4,39,55,0,1713221621,"~/.config/i3/config"
+-'  55  0  ~/.config/i3/config
+|4,39,55,0,1713221621,"~/.config/i3/config"
+
+# Storia delle marcature all'interno dei file (dalle più recenti alle meno recenti):
+
+> ~/Code/dot-files/.git/COMMIT_EDITMSG
+	*	1713292037	0
+	"	42	20
+	^	42	21
+	.	42	20
+	+	42	20
+
+> /etc/modprobe.d/blacklist.conf
+	*	1713281336	0
+	"	1	17
+	^	1	18
+	.	1	17
+	+	1	17
+
+> ~/.config/polybar/modules.ini
+	*	1713221700	0
+	"	287	14
+	^	282	0
+	.	210	14
+	+	287	25
+	+	189	13
+	+	190	13
+	+	247	16
+	+	246	16
+	+	122	35
+	+	247	15
+	+	247	27
+	+	187	11
+	+	153	19
+	+	151	0
+	+	153	16
+	+	247	7
+	+	262	0
+	+	284	58
+	+	262	0
+	+	282	0
+	+	280	11
+	+	270	22
+	+	272	23
+	+	282	0
+	+	272	0
+	+	274	25
+	+	273	18
+	+	254	22
+	+	273	26
+	+	266	22
+	+	265	19
+	+	274	41
+	+	282	0
+	+	281	3
+	+	270	15
+	+	272	23
+	+	278	25
+	+	270	0
+	+	268	0
+	+	270	0
+	+	272	0
+	+	274	0
+	+	275	0
+	+	273	15
+	+	274	15
+	+	271	24
+	+	246	24
+	+	273	27
+	+	267	29
+	+	277	33
+	+	188	10
+	+	273	29
+	+	103	22
+	+	206	20
+	+	210	14
+
+> ~/.config/i3/config
+	*	1713221656	0
+	"	16	2
+	^	108	81
+	.	108	80
+	+	45	40
+	+	47	40
+	+	65	0
+	+	66	11
+	+	65	24
+	+	67	24
+	+	43	0
+	+	15	1
+	+	16	7
+	+	15	16
+	+	17	16
+	+	27	0
+	+	26	11
+	+	25	24
+	+	27	24
+	+	75	0
+	+	77	30
+	+	79	30
+	+	78	30
+	+	66	9
+	+	88	16
+	+	87	24
+	+	89	24
+	+	106	42
+	+	107	0
+	+	95	19
+	+	96	4
+	+	97	0
+	+	96	15
+	+	95	24
+	+	97	24
+	+	137	0
+	+	66	9
+	+	183	0
+	+	168	0
+	+	189	0
+	+	204	30
+	+	207	0
+	+	217	0
+	+	215	5
+	+	216	25
+	+	218	33
+	+	246	1
+	+	247	1
+	+	248	0
+	+	247	13
+	+	246	24
+	+	248	24
+	+	257	0
+	+	260	0
+	+	259	19
+	+	258	32
+	+	260	32
+	+	294	0
+	+	293	11
+	+	292	24
+	+	294	24
+	+	299	0
+	+	295	0
+	+	308	0
+	+	309	0
+	+	308	12
+	+	307	24
+	+	309	25
+	+	310	46
+	+	317	0
+	+	316	16
+	+	315	24
+	+	317	24
+	+	320	47
+	+	320	0
+	+	316	7
+	+	320	13
+	+	316	0
+	+	320	1
+	+	300	1
+	+	302	0
+	+	300	25
+	+	300	16
+	+	303	0
+	+	304	28
+	+	320	28
+	+	63	0
+	+	56	0
+	+	59	0
+	+	58	13
+	+	57	24
+	+	59	25
+	+	25	0
+	+	23	0
+	+	140	17
+	+	312	64
+	+	217	33
+	+	215	5
+	+	324	39
+	+	325	15
+	+	325	14
+	+	325	58
+	+	107	16
+	+	108	80
+
+> ~/.config/polybar/config.ini
+	*	1713221526	0
+	"	1	0
+	^	45	21
+	.	45	21
+	+	130	36
+	+	73	1
+	+	74	1
+	+	75	1
+	+	258	1
+	+	257	50
+	+	131	20
+	+	132	81
+	+	257	29
+	+	256	1
+	+	257	18
+	+	243	23
+	+	211	22
+	+	210	0
+	+	117	0
+	+	118	0
+	+	191	26
+	+	193	31
+	+	194	1
+	+	193	28
+	+	194	0
+	+	193	28
+	+	187	42
+	+	188	0
+	+	183	16
+	+	184	5
+	+	206	16
+	+	267	1
+	+	268	0
+	+	269	0
+	+	271	0
+	+	272	0
+	+	274	0
+	+	275	0
+	+	335	0
+	+	335	17
+	+	337	0
+	+	336	0
+	+	335	0
+	+	277	38
+	+	333	13
+	+	342	0
+	+	343	47
+	+	351	25
+	+	118	0
+	+	117	0
+	+	1	59
+	+	50	14
+	+	45	20
+	+	46	45
+	+	45	21
+
+> ~/Vaults/obsidian-nepero/.git/COMMIT_EDITMSG
+	*	1713205643	0
+	"	14	0
+	^	14	0
+	.	13	23
+	+	32	48
+	+	47	1
+	+	49	19
+	+	39	1
+	+	41	5
+	+	10	1
+	+	17	35
+	+	39	0
+	+	38	31
+	+	55	7
+	+	42	0
+	+	43	27
+	+	32	27
+	+	47	0
+	+	46	14
+	+	31	60
+	+	32	0
+	+	37	16
+	+	25	13
+	+	26	13
+	+	19	16
+	+	30	14
+	+	26	1
+	+	30	3
+	+	28	39
+	+	51	19
+	+	50	19
+	+	55	1
+	+	56	37
+	+	35	16
+	+	15	63
+	+	22	1
+	+	24	19
+	+	13	23
+
+> ~/.bashrc
+	*	1713205580	0
+	"	1	0
+	^	13	7
+	.	13	6
+	+	4	0
+	+	4	18
+	+	22	30
+	+	4	6
+	+	26	22
+	+	4	28
+	+	4	36
+	+	4	28
+	+	35	0
+	+	6	0
+	+	4	32
+	+	35	0
+	+	4	29
+	+	23	34
+	+	25	32
+	+	26	34
+	+	4	0
+	+	4	29
+	+	4	1
+	+	23	8
+	+	8	29
+	+	10	1
+	+	21	1
+	+	26	18
+	+	25	15
+	+	23	15
+	+	27	40
+	+	9	5
+	+	8	10
+	+	5	0
+	+	31	58
+	+	34	25
+	+	33	52
+	+	28	0
+	+	23	0
+	+	24	52
+	+	31	50
+	+	17	0
+	+	16	48
+	+	14	0
+	+	13	6
+
+> ~/Download/firmware/.bashrc
+	*	1713205567	0
+	"	1	0
+
+> ~/.config/ranger/scope.sh
+	*	1713096853	0
+	"	67	11
+
+> ~/.config/ranger/rc.conf
+	*	1713096623	0
+	"	284	0
+	^	283	25
+	.	283	24
+	+	1	15
+	+	3	3
+	+	2	3
+	+	4	30
+	+	1	12
+	+	74	22
+	+	117	30
+	+	167	20
+	+	283	24
+
+> ~/.config/ranger/rc.old
+	*	1713096378	0
+	"	1	0
+
+> ~/.config/rofi/powermenu.rasi
+	*	1713093927	0
+	"	64	0
+	^	36	22
+	.	64	0
+	+	64	0
+
+> ~/Vaults/obsidian-nepero/.gitignore
+	*	1710928541	0
+	"	8	0
+	^	8	1
+	.	8	0
+	+	1	10
+	+	2	11
+	+	3	4
+	+	5	10
+	+	6	5
+	+	8	0
+
+> ~/.config/neofetch/config.conf
+	*	1710195848	0
+	"	29	11
+	^	29	12
+	.	15	4
+	+	15	5
+	+	14	5
+	+	13	5
+	+	20	5
+	+	16	5
+	+	17	5
+	+	28	4
+	+	26	3
+	+	88	11
+	+	104	21
+	+	147	20
+	+	328	8
+	+	339	8
+	+	684	13
+	+	684	18
+	+	15	4
+	+	26	5
+	+	37	5
+	+	173	17
+	+	198	18
+	+	252	10
+	+	235	13
+	+	286	18
+	+	540	0
+	+	566	14
+	+	643	13
+	+	763	18
+	+	836	4
+	+	11	5
+	+	15	4
+
+> ~/.vimrc
+	*	1709910980	0
+	"	16	2
+	^	16	3
+	.	16	2
+	+	1	21
+	+	1	17
+	+	1	21
+	+	1	0
+	+	1	10
+	+	1	1
+	+	1	0
+	+	25	17
+	+	28	78
+	+	53	4
+	+	28	0
+	+	41	0
+	+	40	4
+	+	18	0
+	+	21	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	19	0
+	+	20	8
+	+	1	0
+	+	27	4
+	+	3	0
+	+	2	0
+	+	18	4
+	+	2	7
+	+	2	0
+	+	1	0
+	+	135	2
+	+	55	7
+	+	53	1
+	+	55	0
+	+	135	0
+	+	41	0
+	+	44	0
+	+	42	0
+	+	52	0
+	+	51	4
+	+	42	8
+	+	47	25
+	+	42	0
+	+	53	0
+	+	12	0
+	+	14	18
+	+	55	17
+	+	59	32
+	+	68	15
+	+	5	0
+	+	6	0
+	+	7	0
+	+	23	0
+	+	22	0
+	+	24	0
+	+	25	1
+	+	24	1
+	+	23	1
+	+	22	1
+	+	56	1
+	+	59	1
+	+	62	1
+	+	65	1
+	+	68	1
+	+	70	19
+	+	133	59
+	+	48	24
+	+	48	47
+	+	53	78
+	+	54	0
+	+	16	2
+
+> ~/NERD_tree_tab_1
+	*	1709909924	0
+	"	7	0
+	.	1	0
+	+	1	0
+
+> ~/Code/Lex/ex1.c
+	*	1709909921	0
+	"	2	0
+
+> ~/.vim/plugged/nerdtree/doc/NERDTree.txt
+	*	1709909917	0
+	"	314	72
+
+> /usr/share/vim/vim91/doc/quickref.txt
+	*	1709909560	0
+	"	1465	21
+
+> /usr/share/vim/vim91/doc/help.txt
+	*	1709909523	0
+	"	16	6
+
+> ~/.vim/colors/gruvbox.vim
+	*	1709907593	0
+	"	1	0
+	^	1419	0
+	.	1418	54
+	+	1	79
+	+	1418	54
+
+> ~/.vim/colors/.vimrc
+	*	1709907552	0
+	"	1	0
+
+> ~/.config/dunst/dunstrc
+	*	1709905968	0
+	"	51	0
+	^	51	0
+	.	50	15
+	+	1	8
+	+	100	15
+	+	50	15
+
+> ~/.config/i3/scripts/power.sh
+	*	1709905222	0
+	"	1	0
+	^	7	70
+	.	7	69
+	+	11	3
+	+	7	69
+
+> ~/.viminfo
+	*	1709904723	0
+	"	1	0
+
+> ~/Code/Lex/ex1.lex
+	*	1709904532	0
+	"	8	39
+	^	8	39
+	.	8	41
+	+	8	41
+
+> ~/Code/Lex/ex2.lex
+	*	1709632604	0
+	"	4	15
+	^	4	16
+	.	4	15
+	+	11	4
+	+	4	15
+
+> ~/Code/Lex/example.txt
+	*	1709632174	0
+	"	14	2
+	^	14	3
+	.	14	2
+	+	9	4
+	+	14	2
+
+> ~/ex2.lex
+	*	1709632076	0
+	"	11	0
+	^	11	0
+	.	10	16
+	+	10	16
+
+> ~/Code/Lex/ex1
+	*	1709627520	0
+	"	1	0
+	^	13	1
+	.	13	0
+	+	13	0
+
+> ~/.config/i3/scripts/screenshot.sh
+	*	1709626626	0
+	"	6	1
+	^	6	2
+	.	6	1
+	+	6	1
+
+> ~/temp
+	*	1709567117	0
+	"	4	0
+	^	4	1
+	.	4	1
+	+	4	1
+
+> ~/.config/i3/conf
+	*	1709562388	0
+	"	1	0
+
+> /usr/local/bin/lock_script.sh
+	*	1709562373	0
+	"	6	17
+	^	6	18
+	.	6	17
+	+	6	17
+
+> ~/.bash_profile
+	*	1709560530	0
+	"	18	1
+	^	18	2
+	.	18	1
+	+	25	0
+	+	10	0
+	+	18	0
+	+	19	7
+	+	9	18
+	+	19	20
+	+	19	7
+	+	19	31
+	+	19	7
+	+	11	0
+	+	6	0
+	+	7	13
+	+	12	0
+	+	13	0
+	+	12	0
+	+	13	0
+	+	12	0
+	+	13	10
+	+	13	28
+	+	13	27
+	+	14	0
+	+	24	0
+	+	16	17
+	+	13	1
+	+	12	53
+	+	23	10
+	+	14	0
+	+	21	14
+	+	23	1
+	+	14	1
+	+	15	0
+	+	14	66
+	+	18	0
+	+	19	1
+	+	18	1
+
+> /etc/systemd/system/tmux@.service
+	*	1709487209	0
+	"	13	0
+	^	13	0
+	.	12	26
+	+	12	26
+
+> ~/.config/tmux/tmux.conf
+	*	1709487057	0
+	"	2	38
+	^	2	39
+	.	2	38
+	+	3	0
+	+	2	38
+
+> ~/.config/rofi/themes/bibjaw_mini.rasi
+	*	1709300909	0
+	"	121	25
+	^	130	1
+	.	130	0
+	+	130	0
+
+> ~/.config/rofi/config.rasi
+	*	1709300870	0
+	"	1	46
+	^	1	47
+	.	1	46
+	+	1	46
+	e	1	0
+
+> /usr/include/X11/keysymdef.h
+	*	1709300258	0
+	"	1293	0
+
+> /etc/xdg/autostart/blueman.desktop
+	*	1709131529	0
+	"	41	15
+
+> ~/Docs/todo.txt
+	*	1709120650	0
+	"	15	13
+	^	15	14
+	.	15	13
+	+	4	13
+	+	1	0
+	+	4	0
+	+	2	10
+	+	18	58
+	+	9	0
+	+	7	57
+	+	11	0
+	+	12	20
+	+	15	13
+
+> ~/Docs/.git_credentials
+	*	1709120445	0
+	"	3	48
+	^	3	49
+	.	3	48
+	+	1	14
+	+	3	48
+
+> ~/.bash/bin/pac.sh
+	*	1709055837	0
+	"	4	34
+	^	4	35
+	.	4	34
+	+	4	34
+
+> ~/.bash/bin/update.sh
+	*	1709055685	0
+	"	3	40
+	^	3	41
+	.	3	41
+	+	3	41
+
+> ~/index.html
+	*	1709054012	0
+	"	1	0
+
+> ~/.config/kitty/kitty.conf
+	*	1708715164	0
+	"	50	55
+	^	3	12
+	.	3	11
+	+	1120	48
+	+	1120	78
+	+	1120	47
+	+	1120	48
+	+	1120	47
+	+	1273	30
+	+	1274	0
+	+	1275	0
+	+	776	19
+	+	780	24
+	+	781	0
+	+	939	0
+	+	940	25
+	+	1124	0
+	+	1121	0
+	+	3	0
+	+	4	0
+	+	3	11
+
+> ~/.config/picom/piju.conf
+	*	1708714314	0
+	"	115	1
+	^	115	2
+	.	115	1
+	+	115	1
+
+> ~/.config/picom/picom.conf
+	*	1708714181	0
+	"	54	104
+
+> ~/.config/polybar/config_everforest
+	*	1708712601	0
+	"	221	0
+
+> ~/.config/polybar/config_example
+	*	1708712429	0
+	"	211	24
+
+> ~/.config/polybar/config_old
+	*	1708712318	0
+	"	1	0
+
+> ~/.config/polybar/colors.ini
+	*	1708711940	0
+	"	9	17
+	^	23	23
+	.	23	22
+	+	23	22
+
+> ~/.config/i3/.bashrc
+	*	1708710666	0
+	"	1	0
+
+> ~/.config/hyfetch.json
+	*	1708704424	0
+	"	13	0
+
+> ~/.config/polybar/launch.sh
+	*	1708693718	0
+	"	12	13
+	^	12	14
+	.	12	13
+	+	1	19
+	+	14	23
+	+	12	53
+	+	13	0
+	+	13	11
+	+	15	0
+	+	13	0
+	+	12	13
+
+> ~/.config/polybar/config_alt
+	*	1708685919	0
+	"	211	25
+	^	235	26
+	.	235	25
+	+	20	19
+	+	32	18
+	+	33	18
+	+	32	17
+	+	34	15
+	+	38	13
+	+	45	0
+	+	60	1
+	+	61	1
+	+	46	24
+	+	50	0
+	+	53	24
+	+	63	15
+	+	66	16
+	+	68	1
+	+	69	0
+	+	68	0
+	+	71	1
+	+	80	0
+	+	79	37
+	+	81	33
+	+	82	37
+	+	84	0
+	+	85	1
+	+	89	0
+	+	104	20
+	+	26	18
+	+	28	7
+	+	28	14
+	+	30	15
+	+	106	0
+	+	121	0
+	+	120	22
+	+	98	0
+	+	99	19
+	+	100	29
+	+	142	48
+	+	151	18
+	+	163	13
+	+	151	0
+	+	159	20
+	+	158	1
+	+	204	20
+	+	206	23
+	+	237	0
+	+	232	23
+	+	235	25
+
+> ~/.config/polybar/config
+	*	1708684350	0
+	"	230	16
+	^	230	17
+	.	230	17
+	+	54	37
+	+	20	15
+	+	31	10
+	+	28	13
+	+	31	10
+	+	20	14
+	+	63	54
+	+	67	53
+	+	65	0
+	+	55	63
+	+	232	0
+	+	229	16
+	+	231	6
+	+	230	5
+	+	231	8
+	+	237	56
+	+	235	36
+	+	244	0
+	+	239	48
+	+	236	38
+	+	238	44
+	+	242	0
+	+	241	22
+	+	236	1
+	+	238	1
+	+	241	1
+	+	54	33
+	+	128	16
+	+	128	15
+	+	128	10
+	+	128	45
+	+	128	0
+	+	128	57
+	+	128	1
+	+	129	4
+	+	128	67
+	+	174	68
+	+	172	0
+	+	171	17
+	+	142	13
+	+	150	15
+	+	134	13
+	+	131	152
+	+	131	0
+	+	131	152
+	+	131	0
+	+	54	26
+	+	54	29
+	+	132	0
+	+	54	30
+	+	56	0
+	+	230	17
+
+> ~/.bash_logout
+	*	1708649213	0
+	"	4	0
+	^	4	10
+	.	5	0
+	+	5	0
+
+> ~/.bash_prompt
+	*	1708649197	0
+	"	66	0
+
+> ~/.bash_pro
+	*	1708649119	0
+	"	1	0
+
+> /etc/httpd/conf/httpd.conf
+	*	1708646843	0
+	"	242	34
+	^	242	35
+	.	242	34
+	+	240	20
+	+	242	34
+
+> ~/htb/starting_point_nepero(1).ovpn
+	*	1708535300	0
+	"	1	0
+
+> /tmp/crontab.uxN2LA
+	*	1708532922	0
+	"	1	40
+	^	1	41
+	.	1	40
+	+	1	40
+
+> /tmp/crontab.cwtS8s
+	*	1708532890	0
+	"	1	8
+	^	1	9
+	.	1	9
+	+	1	9
+
+> /tmp/crontab.l5nEJO
+	*	1708532855	0
+	"	1	0
+
+> /tmp/crontab.mCskon
+	*	1708532832	0
+	"	1	0
+	^	1	0
+
+> ~/htb/fix_openvpn.sh
+	*	1708532804	0
+	"	7	26
+	^	7	27
+	.	7	26
+	+	7	26
+
+> ~/htb/start_openvpn
+	*	1708530877	0
+	"	2	13
+	^	2	14
+	.	2	13
+	+	2	13
+
+> /etc/i3/config
+	*	1708267166	0
+	"	200	13
+	^	200	14
+	.	200	13
+	+	201	0
+	+	200	13
+
+> ~/presentazione_elaborato.txt
+	*	1707762618	0
+	"	31	0
+	^	31	0
+	.	3	0
+	+	76	0
+	+	63	2
+	+	22	22
+	+	10	28
+	+	11	1
+	+	4	59
+	+	12	86
+	+	11	27
+	+	13	35
+	+	18	0
+	+	24	64
+	+	6	73
+	+	25	91
+	+	28	19
+	+	25	90
+	+	28	61
+	+	37	2
+	+	31	41
+	+	32	61
+	+	31	102
+	+	35	0
+	+	34	44
+	+	36	0
+	+	35	36
+	+	34	53
+	+	35	20
+	+	37	78
+	+	41	65
+	+	42	70
+	+	47	3
+	+	52	3
+	+	58	3
+	+	45	16
+	+	45	41
+	+	15	4
+	+	20	4
+	+	45	4
+	+	50	96
+	+	54	30
+	+	52	87
+	+	56	75
+	+	61	153
+	+	73	0
+	+	67	1
+	+	68	105
+	+	3	0
+
+> ~/.git_token
+	*	1707755774	0
+	"	1	33
+	^	1	0
+	.	1	0
+	+	1	39
+	+	1	0
+
+> ~/.config/polybar/get_spotify_status.sh
+	*	1707753014	0
+	"	36	0
+	^	36	0
+	.	36	0
+	+	4	1
+	+	5	19
+	+	36	0
+
+> ~/.git
+	*	1707750876	0
+	"	1	0
+
+> ~/.xinitrc
+	*	1707685350	0
+	"	2	8
+	^	2	9
+	.	2	8
+	+	1	11
+	+	2	6
+	+	1	0
+	+	2	8
+
+> ~/.xbindkeysrc
+	*	1707685245	0
+	"	76	0
+	^	76	1
+	.	76	1
+	+	78	0
+	+	69	22
+	+	76	15
+	+	69	0
+	+	71	8
+	+	67	0
+	+	71	12
+	+	74	1
+	+	73	0
+	+	76	1
+
+> ~/.config/dconf/user
+	*	1707678108	0
+	"	1	0
+
+> ~/tesrt
+	*	1707676505	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /usr/share/doc/ranger/config/rc.conf
+	*	1707645469	0
+	"	37	19
+	.	37	20
+	+	37	20
+
+> ~/.config/ranger/rifle.conf
+	*	1707645237	0
+	"	1	0
+
+> ~/xorg.conf.new
+	*	1707513562	0
+	"	27	23
+	^	27	24
+	.	28	0
+	+	28	0
+
+> /etc/X11/xinit/xinitrc
+	*	1707508107	0
+	"	53	0
+	.	51	0
+	+	51	0
+
+> /etc/locale.gen
+	*	1707506035	0
+	"	306	0
+
+> /etc/X11/xorg.conf
+	*	1707505580	0
+	"	27	4
+	^	29	23
+	.	29	22
+	+	26	1
+	+	27	26
+	+	29	7
+	+	28	7
+	+	29	22
+
+> /etc/X11/xorg.conf.d/00-keyboard.conf
+	*	1707499995	0
+	"	1	0
+
+> /etc/pacman.conf
+	*	1707440661	0
+	"	91	0
+	.	91	0
+	+	91	0
