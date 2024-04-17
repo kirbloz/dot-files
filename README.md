@@ -22,9 +22,6 @@ this file is still WIP, but im slowly adding credits
 ### polybar
 
 
-### pulse
-
-
 ### ranger
 
 
