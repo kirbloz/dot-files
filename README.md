@@ -7,8 +7,6 @@ this file is still WIP, but im slowly adding credits
 
 ---
 
-### flameshot
-
 
 ### i3
 
@@ -24,9 +22,4 @@ this file is still WIP, but im slowly adding credits
 
 ### ranger
 
-
-### rofi
-
-
-### tmux
 
