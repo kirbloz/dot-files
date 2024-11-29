@@ -10,8 +10,7 @@
     red-alt:#ca3433;
     orange:#e78a4e;
     yellow: #d8a657;
-    //blue:#7daea3;
-    blue:#4a6aa1;
+    blue:#7daea3;
     green:#a9a665;
     aqua: #89b482;
     cream:#d4be98;
@@ -26,22 +25,21 @@
     border-radius:0;
     spacing:0;
 
-    text-color: @cream;
+    text-color: @dark;
 
     font:"Roboto Condensed Bold 13";
-    //font:"Font Awesome Bold 10.7";
 }
 
 window {
     width: 35%;
     location: center;
-    border-radius:7px;
-    background-color:@transparent;
+    border-radius:0px;
+    background-color:@dark;
     children: [listview];
 }
 
 listview {
-    border:2px;
+    border:0px;
     padding:1px;
     margin:1px;
     columns:4;
@@ -50,9 +48,9 @@ listview {
 }
 
 element {
-    margin:2px;
+    margin:3px;
     padding:15px;
-    background-color:@transparent;
+    background-color:@green;
 }
 
 element-text {
@@ -62,5 +60,5 @@ element-text {
 }
 
 element selected {
-    background-color: @blue;
+    background-color: @red;
 }

@@ -35,7 +35,8 @@ exec --no-startup-id dex --autostart --environment i3
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+# exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+# everything is already set and linked in the powermenu file config
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -315,7 +316,7 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 #	picom	#
 #################
 
-exec --no-startup-id picom -b --config="$HOME/.config/picom/picom_default.conf"
+exec_always --no-startup-id picom -b --config="$HOME/.config/picom/picom_bib99.conf"
 
 
 #########################
@@ -323,15 +324,16 @@ exec --no-startup-id picom -b --config="$HOME/.config/picom/picom_default.conf"
 #########################
 # Displays a picture as de background using feh
 
-exec --no-startup-id feh --no-fehbg --bg-fill "$HOME/Images/csm_2.jpg" 
 
+# exec --no-startup-id feh --no-fehbg --bg-fill "$HOME/Images/csm_2.jpg" 
+exec --no-startup-id feh --no-fehbg --bg-fill "$HOME/Images/outerwilds2.jpg" 
 
 #########################
 #	App swortcuts	#
 #########################
 
 # Browser
-bindsym $mod+Shift+w exec firefox
+bindsym $mod+Shift+w exec floorp
 
 # Obsidian
 bindsym $mod+Shift+o exec obsidian
