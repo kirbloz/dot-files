@@ -1,0 +1,72 @@
+.date {
+  background-color: $gruv-dark-grey;
+  color: $gruv-cream;
+  border: 2 solid $gruv-grey;
+  border-radius: 16px;
+}
+
+.timebox {
+  margin: 30px 0px;
+  .time-container {
+    .content {
+      font-family: Product Sans;
+      font-weight: bolder;
+      font-size: 60px;
+    }
+    .divider {
+      margin: 8px 15px;
+      padding: 0px 1px;
+      background: $gruv-orange;
+    }
+  }
+  .date-container {
+    font-family: Product Sans;
+    margin-top: 2px;
+  }
+}
+
+.cal-box {
+  font-family: JetBrainsMono Nerd Font;
+  background-color: $bg;
+  border-radius: 16px;
+  padding: 0 1rem .2rem;
+  color: $gruv-aqua;
+  background-color: $contrastbg;
+  margin: 0px 12px 12px 12px;
+
+  .cal {
+    background-color: inherit;
+    padding: .5rem .10rem 0rem;
+    margin-left: 10px;
+
+    & > * {
+      border: solid 0px transparent;
+    }
+    
+    &.highlight {
+      padding: 10rem;
+    }
+  }
+}
+
+calendar:selected {
+  color: $gruv-cream;
+}
+
+calendar.header {
+  color: $gruv-cream;
+  font-weight: bold;
+}
+
+calendar.button {
+  color: $gruv-orange;
+}
+
+calendar.highlight {
+  color: $gruv-orange;
+  font-weight: bold;
+}
+
+calendar:indeterminate {
+  color: $lightblack;
+}

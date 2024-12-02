@@ -11,7 +11,6 @@
 
 set $mod Mod4
 
-
 #################
 #	font	#
 #################
@@ -42,6 +41,16 @@ exec --no-startup-id dex --autostart --environment i3
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
+#########################
+#	dunst		#
+#########################
+exec --no-startup-id systemctl --user import-environment DISPLAY XAUTHORITY
+exec --no-startup-id dbus-update-activation-environment DISPLAY XAUTHORITY
+# starts dunst
+exec --no-startup-id dbus-launch dunst --config ~/.config/dunst/dunstrc
+
+# should i put here notify scripts?
+
 
 #########################################
 #	audio wip (adjust to pw)	#
@@ -49,16 +58,30 @@ exec --no-startup-id nm-applet
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3statusg
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% && $refresh_i3status
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% && $refresh_i3status
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
-bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+#bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% && $refresh_i3status
+#bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% && $refresh_i3status
+#bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
+#bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+
+bindsym XF86AudioRaiseVolume exec --no-startup-id media-control volume_up
+bindsym XF86AudioLowerVolume exec --no-startup-id "media-control volume_down"
+bindsym XF86AudioMute exec --no-startup-id media-control volume_mute 
+bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle 
+
+
 
 # using playerctl for keyboard player controls
-bindsym XF86AudioPlay exec playerctl play-pause
-bindsym XF86AudioNext exec playerctl next
-bindsym XF86AudioPrev exec playerctl previous
-bindsym XF86AudioStop exec playerctl stop
+#bindsym XF86AudioPlay exec playerctl play-pause
+#bindsym XF86AudioNext exec playerctl next
+#bindsym XF86AudioPrev exec playerctl previous
+#bindsym XF86AudioStop exec playerctl stop
+
+# try using github/Shringe/dunst-media-control
+bindsym XF86AudioPlayPause exec --no-startup-id media-control play_pause
+bindsym XF86AudioPause exec --no-startup-id media-control play_pause
+bindsym XF86AudioPlay exec --no-startup-id media-control play_pause
+bindsym XF86AudioNext exec --no-startup-id media-control next
+bindsym XF86AudioPrev exec --no-startup-id media-control prev
 
 #########################
 #	brightness	#
@@ -309,6 +332,7 @@ focus_follows_mouse no
 #########################
 # Automatic launch of polybar on i3 startup
 
+exec eww -c "$HOME"/.local/bin/eww daemon &
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 
