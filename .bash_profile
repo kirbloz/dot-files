@@ -8,6 +8,7 @@
 
 export EDITOR="vim"
 export PATH="${PATH}:/home/giovanni/Tools/idea-IU-241.17890.1/bin"
+export PATH="${PATH}:/home/giovanni/.local/bin"
 
 # UPDATE DB
 # only executable from sudo... mh.. need a work around

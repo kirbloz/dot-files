@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/giovanni/Code/Lex'
+let g:netrw_dirhist_3='/home/giovanni/.config/i3'
+let g:netrw_dirhist_2='/etc/httpd/conf'
+let g:netrw_dirhist_1='/home/giovanni/.config/dconf'
